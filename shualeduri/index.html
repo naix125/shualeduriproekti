@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShualeduriProekti</title>
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+
+   
+    <div class="wrapper">
+        
+        <header class="header">
+            <div class="header-logo">
+                <img src="/images/logo-colored.svg" alt="Logo" class="logo">
+            </div>
+
+            <div class="search-container">
+                <input type="text" placeholder="Search" class="search-input" id="searchInput">
+                <select class="category-select">
+                    <option value="all">All category</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="home">Home</option>
+                </select>
+                <button class="search-button">Search</button>
+            </div>
+
+            <div class="icons-container">
+                <a href="#" class="icon-item">
+                    <img src="/images/profile-icon.png" alt="Profile" class="icon" />
+                    <span class="icon-label">Profile</span>
+                </a>
+                <a href="#" class="icon-item">
+                    <img src="/images/message-icon.png" alt="Message" class="icon" />
+                 
+                    <span class="icon-label">Message</span>
+                </a>
+                <a href="#" class="icon-item">
+                    <img src="/images/orders-icon.png" alt="Orders" class="icon" />
+                    <span class="icon-label">Orders</span>
+                </a>
+                <a href="#" class="icon-item">
+                    <img src="/images/cart-icon.png" alt="My Cart" class="icon" />
+                    <span class="icon-label">My Cart</span>
+                </a>
+            </div>
+        </header>
+
+        
+        <div class="main-container">
+            <div class="navigation">
+                
+                <div class="category">
+                    <div class="category-title">Sort <span class="arrow"></span></div>
+                    <div class="dropdown-menu">
+                        <div id="sortButton" class="nav-item">Price</div>
+                        <div class="nav-item">Brand</div>
+                        <div class="nav-item">Year</div>
+                    </div>
+                </div>
+
+                
+                <div class="category">
+                    <div  class="category-title">Brands <span class="arrow"></span></div>
+                    <div id="brands" class="dropdown-menu">
+                        <div class="nav-item">Apple</div>
+                        <div class="nav-item">Samsung</div>
+                        <div class="nav-item">Sony</div>
+                        <div class="nav-item">Nokia</div>
+                        <div class="nav-item">Huawei</div>
+                    </div>
+                </div>
+
+                
+                <div class="category">
+                    <div class="category-title">Price <span class="arrow"></span></div>
+                    <div class="dropdown-menu">
+                        <div class="nav-item">$0 - $100</div>
+                        <div class="nav-item">$100 - $500</div>
+                        <div class="nav-item">$500 - $1000</div>
+                        <div class="nav-item">$1000 - $2000</div>
+                        <div class="nav-item">$2000+</div>
+                    </div>
+                </div>
+
+                
+                <div class="category">
+                    <div class="category-title">Electronics <span class="arrow"></span></div>
+                    <div class="dropdown-menu">
+                        <div class="nav-item">Laptops</div>
+                        <div class="nav-item">Smartphones</div>
+                        <div class="nav-item">Cameras</div>
+                        <div class="nav-item">Tablets</div>
+                        <div class="nav-item">Headphones</div>
+                    </div>
+                </div>
+
+              
+                <div class="category">
+                    <div class="category-title">Clothing <span class="arrow"></span></div>
+                    <div class="dropdown-menu">
+                        <div class="nav-item">Men</div>
+                        <div class="nav-item">Women</div>
+                        <div class="nav-item">Kids</div>
+                        <div class="nav-item">Sportswear</div>
+                        <div class="nav-item">Casual</div>
+                    </div>
+                </div>
+
+                
+                <div class="category">
+                    <div class="category-title">Home Appliances <span class="arrow"></span></div>
+                    <div class="dropdown-menu">
+                        <div class="nav-item">Washing Machines</div>
+                        <div class="nav-item">Refrigerators</div>
+                        <div class="nav-item">Air Conditioners</div>
+                        <div class="nav-item">Microwaves</div>
+                        <div class="nav-item">Vacuum Cleaners</div>
+                    </div>
+                </div>
+
+               
+                <div class="category">
+                    <div class="category-title">Accessories <span class="arrow"></span></div>
+                    <div class="dropdown-menu">
+                        <div class="nav-item">Phone Cases</div>
+                        <div class="nav-item">Chargers</div>
+                        <div class="nav-item">Headsets</div>
+                        <div class="nav-item">Smart Watches</div>
+                        <div class="nav-item">Wallets</div>
+                    </div>
+                </div>
+
+              
+                <div class="category">
+                    <div class="category-title">Books <span class="arrow"></span></div>
+                    <div class="dropdown-menu">
+                        <div class="nav-item">Fiction</div>
+                        <div class="nav-item">Non-Fiction</div>
+                        <div class="nav-item">Children's Books</div>
+                        <div class="nav-item">Comics</div>
+                        <div class="nav-item">Self-Help</div>
+                    </div>
+                </div>
+
+                
+                <div class="category">
+                    <div class="category-title">Beauty Products <span class="arrow"></span></div>
+                    <div class="dropdown-menu">
+                        <div class="nav-item">Skincare</div>
+                        <div class="nav-item">Makeup</div>
+                        <div class="nav-item">Hair Care</div>
+                        <div class="nav-item">Perfumes</div>
+                        <div class="nav-item">Nail Care</div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="products-container" id="products-container">
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
